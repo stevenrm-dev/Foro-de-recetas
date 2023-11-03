@@ -1,0 +1,65 @@
+:root {
+    --p_dim: #1F1717;
+    --p_bright: #FCF5ED;
+    --p_peach: #d48548;
+    --p_berry: #CE5A67;
+    --p_berry-b: #5a79ce;
+
+    --dark: #0C0C0C;
+    --light: #e4e4e4;
+}
+
+body {
+    & .tx-dim {
+        color: var(--p_dim);
+    }
+    
+    & .tx-bright {
+        color: var(--p_bright);
+    }
+    
+    & .tx-peach {
+        color: var(--p_peach);
+    }
+    
+    & .tx-peach,
+    & .link {
+        color: var(--p_peach);
+    }
+    
+    & .tx-berry {
+        color: var(--p_berry);
+    }
+    
+    & .tx-berry--b {
+        color: var(--p_berry-b);
+    }
+    
+    & .bg-dim {
+        background-color: var(--p_dim);
+    }
+    
+    & .bg-bright {
+        background-color: var(--p_bright);
+    }
+    
+    & .bg-peach {
+        background-color: var(--p_peach);
+    }
+    
+    & .bg-berry {
+        background-color: var(--p_berry);
+    }
+    
+    & .bg-berry--b {
+        background-color: var(--p_berry-b);
+    }
+    
+    & .bg-dark {
+        background-color: var(--dark);
+    }
+    
+    & .bg-light {
+        background-color: var(--light);
+    }
+}

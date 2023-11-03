@@ -1,0 +1,20 @@
+body * {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
+}
+
+body {
+    & .title {
+        font-family:'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    & .title-primary {
+        text-transform: uppercase;
+    }
+
+    & .title-primary:hover {
+        text-decoration: none;
+        color: var(--p_berry);
+    }
+}
